@@ -11,21 +11,24 @@ tools:context=".MainActivity">
     <Button
         android:id="@+id/button1"
         android:layout_width="100dp"
-        android:layout_height="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_gravity="left"
         android:text="B1" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="100dp"
-        android:layout_height="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_gravity="right"
         android:text="B2" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="100dp"
-        android:layout_height="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_gravity="center"
         android:text="B3" />
 
